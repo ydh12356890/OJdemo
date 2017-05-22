@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ojprogramming"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".User" />
+        <activity android:name=".ShouyeList" />
+        <activity android:name=".Commit" />
+        <activity android:name=".CFContests" />
+        <activity android:name=".IcpcContests" />
+        <activity android:name=".ReplayContests" />
+        <activity android:name=".StandardContests" />
+        <activity android:name=".VirtualContests" />
+        <activity android:name=".DetailInfoOfCommit" />
+        <activity android:name=".DetailInfoOfStandardContests" />
+        <activity android:name=".DetailInfoOfReplayContests" />
+        <activity android:name=".DetailInfoOfVirtualContests" />
+        <activity android:name=".DetailInfoOfCf" />
+        <activity android:name=".DetailInfoOfIcpc" />
+        <activity android:name=".Page4" />
+        <activity android:name=".CommitCode" />
+        <activity android:name=".Contests" />
+        <activity android:name=".DetailInfoOfContests" />
+        <activity android:name=".DetailInfoOfQuestion" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

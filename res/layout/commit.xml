@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   
+    >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp">
+
+        <TextView 
+        android:id="@+id/id_user"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+       android:textSize="16dp"
+        android:layout_weight="2"
+        android:text="user"
+        />
+       
+       
+    <TextView 
+        android:id="@+id/id_run"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:text="run_id"
+        android:layout_weight="1"/>   
+
+ <TextView 
+        android:id="@+id/id_status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+    
+          android:textSize="16sp"
+        android:text="运行结果"
+        android:layout_weight="3"/>   
+     </LinearLayout>
+     
+   <ListView 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:id="@+id/commit_listview"
+        android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp">
+   
+   </ListView>
+   
+</LinearLayout>

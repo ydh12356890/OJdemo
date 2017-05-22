@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BFBFBF" >
+     <TextView 
+        android:id="@+id/detailinfo_sc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="replay contests的详细信息"
+         android:background="#FFFFFF"
+        android:textSize="30dp"
+        android:gravity="center"
+         android:textStyle="bold|italic"
+        />
+    <TextView 
+        android:id="@+id/sc_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="比赛名称："
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+    <TextView 
+        android:id="@+id/sc_starttime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开始时间："
+        android:textSize="30dp"
+         android:background="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+    <TextView 
+        android:id="@+id/sc_endtime"
+     android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="结束时间："
+         android:background="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+    <TextView 
+        android:id="@+id/sc_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="目前状态："
+        android:textSize="30dp"
+         android:background="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+   
+     <TextView 
+        android:id="@+id/sc_access"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="访问权限："
+        android:textSize="30dp"
+         android:background="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

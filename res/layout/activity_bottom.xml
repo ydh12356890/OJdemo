@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/weixin"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <!-- android:clickable="false" 是为了防止ImageButton截取了触摸事件 ，这里事件要给它的上一级linearlayout-->
+        <ImageButton
+            android:id="@+id/id_btn_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/onclick_weixin" />
+        <TextView
+            android:id="@+id/id_tv_wenxin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shouye"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tongxunlu"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_btn_tongxunlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/notclick_tongxunlu" />
+
+        <TextView
+            android:id="@+id/id_tv_tongxunlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tijiao"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faxian"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_btn_faxian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/notclick_faxian" />
+
+        <TextView
+            android:id="@+id/id_tv_faxian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiku"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wode"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_btn_wode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/notclick_wode" />
+
+        <TextView
+            android:id="@+id/id_tv_wode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wode"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
